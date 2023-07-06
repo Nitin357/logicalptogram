@@ -5,7 +5,7 @@ public class reverseString2 {
         String str = "Automation";
         StringBuilder str2 = new StringBuilder();
         str2.append(str);
-        str2 = str2.reverse();     // used string builder to reverse
+         str2 = str2.reverse();     // used string builder to reverse
         System.out.println(str2);
     }
 
