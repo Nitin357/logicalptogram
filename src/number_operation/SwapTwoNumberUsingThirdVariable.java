@@ -6,7 +6,12 @@ public class SwapTwoNumberUsingThirdVariable {
         int x=3;
         int y=4;
 
-        System.out.println("before swapping" + x + y);
+        System.out.println("before swapping:-" + x + " "+ y);
+        int z=x;
+         x=y;
+         y=z;
+        System.out.println("After swapping:-" + x + " "+ y);
+
 
     }
 }
